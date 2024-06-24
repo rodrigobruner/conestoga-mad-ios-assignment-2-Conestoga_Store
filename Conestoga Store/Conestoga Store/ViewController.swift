@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    let start: [Product] = loadProducts()
+        if(start.count > 0){
+            self.products = start
+        }
+        
     }
     
     @IBAction func btnMonitor(_ sender: Any) {
@@ -71,9 +76,10 @@ class ViewController: UIViewController {
                     let doublePrice = Double(price) ?? 0.0
                     
                     self.products.append(Product(title: title, description: description, price: doublePrice))
-                    self.tableView.reloadData()
                     
-                   
+                    saveProducts(self.products)
+                    
+                    self.tableView.reloadData()
                 }))
                 
                 present(alert, animated: true)
