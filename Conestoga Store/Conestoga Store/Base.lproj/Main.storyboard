@@ -115,7 +115,7 @@
         <!--View Controller-->
         <scene sceneID="IQP-tV-OX5">
             <objects>
-                <viewController id="CYn-n4-CwA" sceneMemberID="viewController">
+                <viewController id="CYn-n4-CwA" customClass="ViewController" customModule="Conestoga_Store" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WE2-28-92S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,6 +132,9 @@
                                 <rect key="frame" x="60" y="261.33333333333331" width="273" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Monitors"/>
+                                <connections>
+                                    <action selector="btnMonitor:" destination="CYn-n4-CwA" eventType="touchUpInside" id="UX2-eh-Xo8"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Aj2-2T-6GF">
                                 <rect key="frame" x="50" y="336.33333333333331" width="293" height="128"/>

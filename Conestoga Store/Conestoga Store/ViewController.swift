@@ -28,10 +28,19 @@ class ViewController: UIViewController {
         }
         
     }
-    
+
     @IBAction func btnMonitor(_ sender: Any) {
-        print(" Monitor ")
+        let alertController = UIAlertController(title: "Oops, something is wrong", message: "We don't have a monitor yet. Check back later.", preferredStyle: .alert)
+
+        let okAction = UIAlertAction(title: "OK", style: .default) { _ in
+            // Handle OK button tap
+        }
+
+        alertController.addAction(okAction)
+
+        present(alertController, animated: true, completion: nil)
     }
+    
     
     
     @IBAction func btnAdd(_ sender: Any) {
