@@ -24,19 +24,59 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
     @IBAction func btnMonitor(_ sender: Any) {
-        print("Monitor")
+        print(" Monitor ")
+    }
+    
+    
+    @IBAction func btnAdd(_ sender: Any) {
+        let alert = UIAlertController(title: "Add a new product", message: "Fill in the fields below with the product details.", preferredStyle: .alert)
+                
+                alert.addTextField { field in
+                    field.placeholder = "Title"
+                    field.returnKeyType = .next
+                }
         
-        let alertController = UIAlertController(title: "Oops we had an error", message: "No monitors yet. Check back later!", preferredStyle: .alert)
+                alert.addTextField { field in
+                    field.placeholder = "Description"
+                    field.returnKeyType = .next
+                }
+                
+                alert.addTextField { field in
+                    field.placeholder = "Price"
+                    field.returnKeyType = .next
+                }
+                
+                alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+                alert.addAction(UIAlertAction(title: "Add", style: .default, handler: {_ in
+                    guard let fields = alert.textFields, fields.count == 3 else {
+                        return
+                    }
+                    let productTitle = fields[0]
+                    let productDescription = fields[1]
+                    let productPrice = fields[2]
+                    
+                    guard let title = productTitle.text, !title.isEmpty else {
+                        return
+                    }
+                    
+                    guard let description = productDescription.text, !description.isEmpty else {
+                        return
+                    }
+                    
+                    guard let price = productPrice.text, !price.isEmpty else {
+                        return
+                    }
 
-        let okAction = UIAlertAction(title: "OK", style: .default) { _ in
-            // Handle OK button tap
-        }
-
-        alertController.addAction(okAction)
-
-        present(alertController, animated: true, completion: nil)
+                    let doublePrice = Double(price) ?? 0.0
+                    
+                    self.products.append(Product(title: title, description: description, price: doublePrice))
+                    self.tableView.reloadData()
+                    
+                   
+                }))
+                
+                present(alert, animated: true)
     }
     
 

@@ -59,12 +59,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="description" destination="rVk-df-yPu" id="1eZ-ef-A6M"/>
                                             <outlet property="labelDescription" destination="rVk-df-yPu" id="FR0-DE-h0G"/>
                                             <outlet property="labelPrice" destination="l0l-5q-96i" id="HuN-jO-WsD"/>
                                             <outlet property="labelTitle" destination="VHC-Jk-vsC" id="igV-dJ-YDV"/>
-                                            <outlet property="price" destination="l0l-5q-96i" id="7mc-Gw-5mF"/>
-                                            <outlet property="title" destination="VHC-Jk-vsC" id="L3Y-bY-sEl"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -85,7 +82,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Laptops" id="RyD-FS-i4m">
                         <barButtonItem key="backBarButtonItem" title=" " image="xmark.circle" catalog="system" id="OQP-AC-UN8"/>
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="CC2-dN-vvz"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="CC2-dN-vvz">
+                            <connections>
+                                <action selector="btnAdd:" destination="BYZ-38-t0r" id="m6p-tL-cbK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="DGD-s5-xUt" id="hyx-AT-OE6"/>
@@ -120,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conestoga Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAR-Yd-Nui">
-                                <rect key="frame" x="0.0" y="122.99999999999999" width="393" height="34.333333333333329"/>
+                                <rect key="frame" x="0.0" y="122.99999999999999" width="393" height="33.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.78261220460000003" green="0.65161138770000004" blue="0.37635833019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="systemGray2Color"/>
@@ -128,22 +129,19 @@
                                 <size key="shadowOffset" width="1" height="2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4a-o3-8Dp">
-                                <rect key="frame" x="60" y="262.33333333333331" width="273" height="35"/>
+                                <rect key="frame" x="60" y="261.33333333333331" width="273" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Monitors"/>
-                                <connections>
-                                    <action selector="MonitorButton:" destination="4cu-6C-qZL" eventType="touchUpInside" id="6Zj-zx-4RU"/>
-                                    <action selector="btnMonitor:" destination="4cu-6C-qZL" eventType="touchUpInside" id="Ye7-yA-Xhg"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Aj2-2T-6GF">
-                                <rect key="frame" x="50" y="337.33333333333331" width="293" height="128"/>
+                                <rect key="frame" x="50" y="336.33333333333331" width="293" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJW-dm-4rJ">
-                                <rect key="frame" x="60" y="197.33333333333334" width="273" height="35"/>
+                                <rect key="frame" x="60" y="196.33333333333334" width="273" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Laptops"/>
                                 <connections>
+                                    <action selector="btnMonitor:" destination="4cu-6C-qZL" eventType="touchUpInside" id="2AO-h2-1wO"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="vnS-ds-ewg"/>
                                 </connections>
                             </button>
