@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051131F12C28F91D00CDEC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051131F02C28F91D00CDEC64 /* AppDelegate.swift */; };
+		051131F32C28F91D00CDEC64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051131F22C28F91D00CDEC64 /* SceneDelegate.swift */; };
+		051131F52C28F91D00CDEC64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051131F42C28F91D00CDEC64 /* ViewController.swift */; };
+		051131F82C28F91D00CDEC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051131F62C28F91D00CDEC64 /* Main.storyboard */; };
+		051131FA2C28F91E00CDEC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051131F92C28F91E00CDEC64 /* Assets.xcassets */; };
+		051131FD2C28F91E00CDEC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051131FB2C28F91E00CDEC64 /* LaunchScreen.storyboard */; };
+		051132082C28F91E00CDEC64 /* Conestoga_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051132072C28F91E00CDEC64 /* Conestoga_StoreTests.swift */; };
+		051132122C28F91E00CDEC64 /* Conestoga_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051132112C28F91E00CDEC64 /* Conestoga_StoreUITests.swift */; };
+		051132142C28F91E00CDEC64 /* Conestoga_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051132132C28F91E00CDEC64 /* Conestoga_StoreUITestsLaunchTests.swift */; };
+		051132212C28FA4D00CDEC64 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051132202C28FA4D00CDEC64 /* Product.swift */; };
+		051132232C29043E00CDEC64 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051132222C29043E00CDEC64 /* ProductTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051132042C28F91E00CDEC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051131E52C28F91D00CDEC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051131EC2C28F91D00CDEC64;
+			remoteInfo = "Conestoga Store";
+		};
+		0511320E2C28F91E00CDEC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051131E52C28F91D00CDEC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051131EC2C28F91D00CDEC64;
+			remoteInfo = "Conestoga Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051131ED2C28F91D00CDEC64 /* Conestoga Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conestoga Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051131F02C28F91D00CDEC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		051131F22C28F91D00CDEC64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		051131F42C28F91D00CDEC64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		051131F72C28F91D00CDEC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051131F92C28F91E00CDEC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051131FC2C28F91E00CDEC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051131FE2C28F91E00CDEC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051132032C28F91E00CDEC64 /* Conestoga StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conestoga StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051132072C28F91E00CDEC64 /* Conestoga_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conestoga_StoreTests.swift; sourceTree = "<group>"; };
+		0511320D2C28F91E00CDEC64 /* Conestoga StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conestoga StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051132112C28F91E00CDEC64 /* Conestoga_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conestoga_StoreUITests.swift; sourceTree = "<group>"; };
+		051132132C28F91E00CDEC64 /* Conestoga_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conestoga_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		051132202C28FA4D00CDEC64 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		051132222C29043E00CDEC64 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051131EA2C28F91D00CDEC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051132002C28F91E00CDEC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0511320A2C28F91E00CDEC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051131E42C28F91D00CDEC64 = {
+			isa = PBXGroup;
+			children = (
+				051131EF2C28F91D00CDEC64 /* Conestoga Store */,
+				051132062C28F91E00CDEC64 /* Conestoga StoreTests */,
+				051132102C28F91E00CDEC64 /* Conestoga StoreUITests */,
+				051131EE2C28F91D00CDEC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051131EE2C28F91D00CDEC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051131ED2C28F91D00CDEC64 /* Conestoga Store.app */,
+				051132032C28F91E00CDEC64 /* Conestoga StoreTests.xctest */,
+				0511320D2C28F91E00CDEC64 /* Conestoga StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051131EF2C28F91D00CDEC64 /* Conestoga Store */ = {
+			isa = PBXGroup;
+			children = (
+				051131F02C28F91D00CDEC64 /* AppDelegate.swift */,
+				051131F22C28F91D00CDEC64 /* SceneDelegate.swift */,
+				051131F42C28F91D00CDEC64 /* ViewController.swift */,
+				051131F62C28F91D00CDEC64 /* Main.storyboard */,
+				051131F92C28F91E00CDEC64 /* Assets.xcassets */,
+				051131FB2C28F91E00CDEC64 /* LaunchScreen.storyboard */,
+				051131FE2C28F91E00CDEC64 /* Info.plist */,
+				051132202C28FA4D00CDEC64 /* Product.swift */,
+				051132222C29043E00CDEC64 /* ProductTableViewCell.swift */,
+			);
+			path = "Conestoga Store";
+			sourceTree = "<group>";
+		};
+		051132062C28F91E00CDEC64 /* Conestoga StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				051132072C28F91E00CDEC64 /* Conestoga_StoreTests.swift */,
+			);
+			path = "Conestoga StoreTests";
+			sourceTree = "<group>";
+		};
+		051132102C28F91E00CDEC64 /* Conestoga StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				051132112C28F91E00CDEC64 /* Conestoga_StoreUITests.swift */,
+				051132132C28F91E00CDEC64 /* Conestoga_StoreUITestsLaunchTests.swift */,
+			);
+			path = "Conestoga StoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051131EC2C28F91D00CDEC64 /* Conestoga Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051132172C28F91E00CDEC64 /* Build configuration list for PBXNativeTarget "Conestoga Store" */;
+			buildPhases = (
+				051131E92C28F91D00CDEC64 /* Sources */,
+				051131EA2C28F91D00CDEC64 /* Frameworks */,
+				051131EB2C28F91D00CDEC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conestoga Store";
+			productName = "Conestoga Store";
+			productReference = 051131ED2C28F91D00CDEC64 /* Conestoga Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051132022C28F91E00CDEC64 /* Conestoga StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0511321A2C28F91E00CDEC64 /* Build configuration list for PBXNativeTarget "Conestoga StoreTests" */;
+			buildPhases = (
+				051131FF2C28F91E00CDEC64 /* Sources */,
+				051132002C28F91E00CDEC64 /* Frameworks */,
+				051132012C28F91E00CDEC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051132052C28F91E00CDEC64 /* PBXTargetDependency */,
+			);
+			name = "Conestoga StoreTests";
+			productName = "Conestoga StoreTests";
+			productReference = 051132032C28F91E00CDEC64 /* Conestoga StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0511320C2C28F91E00CDEC64 /* Conestoga StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0511321D2C28F91E00CDEC64 /* Build configuration list for PBXNativeTarget "Conestoga StoreUITests" */;
+			buildPhases = (
+				051132092C28F91E00CDEC64 /* Sources */,
+				0511320A2C28F91E00CDEC64 /* Frameworks */,
+				0511320B2C28F91E00CDEC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0511320F2C28F91E00CDEC64 /* PBXTargetDependency */,
+			);
+			name = "Conestoga StoreUITests";
+			productName = "Conestoga StoreUITests";
+			productReference = 0511320D2C28F91E00CDEC64 /* Conestoga StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051131E52C28F91D00CDEC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					051131EC2C28F91D00CDEC64 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					051132022C28F91E00CDEC64 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 051131EC2C28F91D00CDEC64;
+					};
+					0511320C2C28F91E00CDEC64 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 051131EC2C28F91D00CDEC64;
+					};
+				};
+			};
+			buildConfigurationList = 051131E82C28F91D00CDEC64 /* Build configuration list for PBXProject "Conestoga Store" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051131E42C28F91D00CDEC64;
+			productRefGroup = 051131EE2C28F91D00CDEC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051131EC2C28F91D00CDEC64 /* Conestoga Store */,
+				051132022C28F91E00CDEC64 /* Conestoga StoreTests */,
+				0511320C2C28F91E00CDEC64 /* Conestoga StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051131EB2C28F91D00CDEC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051131FD2C28F91E00CDEC64 /* LaunchScreen.storyboard in Resources */,
+				051131FA2C28F91E00CDEC64 /* Assets.xcassets in Resources */,
+				051131F82C28F91D00CDEC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051132012C28F91E00CDEC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0511320B2C28F91E00CDEC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051131E92C28F91D00CDEC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051131F52C28F91D00CDEC64 /* ViewController.swift in Sources */,
+				051132212C28FA4D00CDEC64 /* Product.swift in Sources */,
+				051132232C29043E00CDEC64 /* ProductTableViewCell.swift in Sources */,
+				051131F12C28F91D00CDEC64 /* AppDelegate.swift in Sources */,
+				051131F32C28F91D00CDEC64 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051131FF2C28F91E00CDEC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051132082C28F91E00CDEC64 /* Conestoga_StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051132092C28F91E00CDEC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051132142C28F91E00CDEC64 /* Conestoga_StoreUITestsLaunchTests.swift in Sources */,
+				051132122C28F91E00CDEC64 /* Conestoga_StoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051132052C28F91E00CDEC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051131EC2C28F91D00CDEC64 /* Conestoga Store */;
+			targetProxy = 051132042C28F91E00CDEC64 /* PBXContainerItemProxy */;
+		};
+		0511320F2C28F91E00CDEC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051131EC2C28F91D00CDEC64 /* Conestoga Store */;
+			targetProxy = 0511320E2C28F91E00CDEC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051131F62C28F91D00CDEC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051131F72C28F91D00CDEC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051131FB2C28F91E00CDEC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051131FC2C28F91E00CDEC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051132152C28F91E00CDEC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		051132162C28F91E00CDEC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051132182C28F91E00CDEC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conestoga Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.conestogac.Conestoga-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051132192C28F91E00CDEC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conestoga Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.conestogac.Conestoga-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0511321B2C28F91E00CDEC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.conestogac.Conestoga-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conestoga Store.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conestoga Store";
+			};
+			name = Debug;
+		};
+		0511321C2C28F91E00CDEC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.conestogac.Conestoga-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conestoga Store.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conestoga Store";
+			};
+			name = Release;
+		};
+		0511321E2C28F91E00CDEC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.conestogac.Conestoga-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conestoga Store";
+			};
+			name = Debug;
+		};
+		0511321F2C28F91E00CDEC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.conestogac.Conestoga-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conestoga Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051131E82C28F91D00CDEC64 /* Build configuration list for PBXProject "Conestoga Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051132152C28F91E00CDEC64 /* Debug */,
+				051132162C28F91E00CDEC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051132172C28F91E00CDEC64 /* Build configuration list for PBXNativeTarget "Conestoga Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051132182C28F91E00CDEC64 /* Debug */,
+				051132192C28F91E00CDEC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0511321A2C28F91E00CDEC64 /* Build configuration list for PBXNativeTarget "Conestoga StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511321B2C28F91E00CDEC64 /* Debug */,
+				0511321C2C28F91E00CDEC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0511321D2C28F91E00CDEC64 /* Build configuration list for PBXNativeTarget "Conestoga StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511321E2C28F91E00CDEC64 /* Debug */,
+				0511321F2C28F91E00CDEC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051131E52C28F91D00CDEC64 /* Project object */;
+}
